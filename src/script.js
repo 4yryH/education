@@ -1,1 +1,1 @@
-alert("Hello from my Git")
+alert("Hello from my Git");
