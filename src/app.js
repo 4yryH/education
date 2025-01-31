@@ -28,4 +28,3 @@ function gameSecretNumber() {
 }
 
 gameSecretNumber();
-
