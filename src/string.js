@@ -72,7 +72,7 @@ console.log(truncationText(someBigText, givenLength));
 let firstString = 'Вот и лето прошло, словно и не бывало'
 let secondString = 'Вот и лето'
 
-let stringComparison = function (firstString, secondString) {
+let isSubstring = function (firstString, secondString) {
     /**
      Просто делаем поиск в первой строке второй подстроки через indexOf и наоборот и сравнение к -1, возвращаем true,
      если положительный ответ от indexOf, иначе возвращаем false */
@@ -85,4 +85,4 @@ let stringComparison = function (firstString, secondString) {
     }
 };
 
-console.log(stringComparison(firstString, secondString));
+console.log(isSubstring(firstString, secondString));
